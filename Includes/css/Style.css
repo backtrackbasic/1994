@@ -1,0 +1,187 @@
+﻿body
+{
+	margin:0px;
+	padding:0px;
+	font-size:16px;
+	width:100%;
+	color:#000000;
+	background-color:#FFFFFF;
+}
+.clear
+{
+	clear: both;
+}
+
+.FullPage
+{
+ min-height:450px;  
+ padding:0px 10px;
+ 
+}
+
+.RowClass
+{
+   margin:0px auto;   
+}
+
+.LeftColumn1,.RightColumn2,.LeftColumn3,.RightColumn4,.LeftColumn5,.RightColumn6,.LeftColumn7,.RightColumn8
+{
+    min-height:650px;
+   /* background:url(../../Images/Circle.png) no-repeat 20px 10px;*/
+       
+}
+
+.LeftColumn1
+{
+    
+    background:url(../../Images/bulb.png)#7b9bc2 no-repeat 20px center;
+    text-align:right;
+}
+
+.LeftText
+{
+    position:absolute;
+    color:#ffffff;
+    top: 12%;
+    left: 40%;   
+    
+}
+
+.LeftText h2
+{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.LeftText ul
+{
+    margin-left: 48px;
+    margin-top: 28px;
+}
+
+.LeftText ul li
+{
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.RightColumn2
+{
+   background:url(../../Images/detective.png)#d75c71 no-repeat 70px center;
+}
+
+.LeftColumn3
+{
+    background:url(../../Images/settings.png)#f9bf3a no-repeat 20px center;
+}
+
+.RightColumn4
+{
+   background:url(../../Images/structure.png)#63c9bc no-repeat 20px center;
+}
+
+.LeftColumn5
+{
+   background:url(../../Images/rocket.png)#b56a95 no-repeat 20px center;
+}
+
+.RightColumn6
+{
+    background:url(../../Images/bulb.png)#7b9bc2 no-repeat 20px center;
+}
+
+.LeftColumn1:after 
+{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 42px solid transparent;
+    border-bottom: 42px solid transparent;
+    border-left: 65px solid #7b9bc2;
+    z-index: 999;
+}
+
+
+
+.RightColumn2:after
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 65px #d75c71;
+    border-left: solid 42px transparent;
+    border-right: solid 42px transparent;   
+    z-index: 999;
+}
+
+.RightColumn4:after
+{
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-top: 42px solid transparent;
+    border-bottom: 42px solid transparent;
+    border-right: 65px solid #63c9bc;
+    z-index: 999;
+}
+
+.LeftColumn3:after
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 65px #f9bf3a;
+    border-left: solid 42px transparent;
+    border-right: solid 42px transparent;
+    z-index: 999;
+    
+}
+
+.LeftColumn5:after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 42px solid transparent;
+    border-bottom: 42px solid transparent;
+    border-left: 65px solid #b56a95;
+    z-index: 999;
+    
+}
+.TextClass
+{
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 2.4;
+    width: 85px;
+    position: absolute;
+    height: 85px;
+    background: #000000;
+    text-align: center;
+    top: 14px;
+    left: 30px;
+    
+    border-radius: 45px;
+    -webkit-border-radius: 45px;    
+    -moz-border-radius:45px;
+    -khtml-border-radius:45px;
+}

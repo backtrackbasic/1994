@@ -1,0 +1,159 @@
+﻿@media only screen and (min-width : 240px) and (max-width: 999px)
+{
+.FullPage 
+{
+    min-height: 450px;
+    padding: 0px 0px;
+}    
+.LeftColumn1:after 
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    margin-left: 0px;
+    width: 0;
+    height: 0;
+    border-top: solid 42px #7b9bc2;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    z-index: 999;
+}
+
+.LeftColumn5:after 
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    margin-left: 0px;
+    width: 0;
+    height: 0;
+    border-top: solid 42px #b56a95;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    z-index: 999;
+}
+
+.LeftText h2 
+{
+    font-size: 26px;
+    /* text-align: center; */
+    text-transform: uppercase;
+}   
+.LeftText 
+{
+    position: absolute;
+    color: #ffffff;
+    top: 35%;
+    left: 0%;
+    width: 80%;
+    right: 0%;
+    margin: 0px auto;
+}   
+  
+.LeftColumn1 
+{
+    background: url(../../Images/bulb.png)#7b9bc2 no-repeat center 50px;
+    background-size: 40%;
+}   
+
+ .RightColumn2
+{
+   background:url(../../Images/detective.png)#d75c71 no-repeat center 50px;
+   background-size: 40%;
+}
+
+.LeftColumn3
+{
+    background:url(../../Images/settings.png)#f9bf3a no-repeat center 50px;
+    background-size: 40%;
+}
+
+.RightColumn4
+{
+   background:url(../../Images/structure.png)#63c9bc no-repeat center 50px;
+   background-size: 40%;
+}
+
+.LeftColumn5
+{
+   background:url(../../Images/rocket.png)#b56a95 no-repeat center 50px;
+   background-size: 40%;
+}
+
+.RightColumn6
+{
+    background:url(../../Images/bulb.png)#7b9bc2 no-repeat center 50px;
+    background-size: 40%;
+}
+   
+.TextClass 
+{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.4;
+    width: 35px;
+    position: absolute;
+    height: 35px;
+    background: #000000;
+    text-align: center;
+    top: 2%;
+    left: 2%;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -khtml-border-radius: 45px;
+}
+ 
+.LeftText ul li {
+    text-align: left;
+    line-height: 2;
+    font-size: 18px;
+}  
+  
+.LeftText ul {
+     margin:0px auto;
+     padding: 0px 75px;
+} 
+    
+    
+.RightColumn2:after
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    margin-left:0px;
+    width: 0;
+    height: 0;
+    border-top: solid 42px #d75c71;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;   
+    z-index: 999;
+}
+
+.LeftColumn3:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    margin-left:0px;
+    width: 0;
+    height: 0;
+    border-top: solid 42px #f9bf3a;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;   
+    z-index: 999;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
